@@ -14,9 +14,9 @@ export default function AboutSection() {
   };
 
   const stats = [
-    { icon: Calendar, label: 'Years Experience', value: '5+' },
-    { icon: Award, label: 'Projects Completed', value: '50+' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco' },
+    { icon: Calendar, label: 'Years Experience In Personal Projects', value: '2+' },
+    { icon: Award, label: 'Projects Completed', value: '10+' },
+    { icon: MapPin, label: 'Location', value: 'Addis Ababa' },
   ];
 
   return (
@@ -50,8 +50,8 @@ export default function AboutSection() {
                 className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-2xl"
               >
                 <Image
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="John Doe"
+                  src="about.jpg"
+                  alt="Bereket Getaye"
                   fill
                   className="object-cover"
                 />
@@ -82,13 +82,12 @@ export default function AboutSection() {
                 Passionate Developer & Problem Solver
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm a dedicated Full Stack Developer with over 5 years of experience creating 
+                I'm a dedicated Full Stack Developer  creating 
                 innovative web applications. I specialize in React, Next.js, and Node.js, 
                 with a passion for writing clean, efficient code and delivering exceptional user experiences.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to 
-                open-source projects, or sharing knowledge with the developer community. I believe 
+                I enjoy building apps that solve real problems and help businesses grow. I believe 
                 in continuous learning and staying at the forefront of web development trends.
               </p>
             </div>

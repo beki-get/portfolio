@@ -4,26 +4,15 @@ import { motion } from 'framer-motion';
 import { Briefcase, GraduationCap, Calendar, MapPin, Award } from 'lucide-react';
 
 const workExperience = [
-  {
-    title: 'Senior Full Stack Developer',
-    company: 'TechCorp Inc.',
-    location: 'San Francisco, CA',
-    period: '2022 - Present',
-    description: 'Lead development of scalable web applications using React, Next.js, and Node.js. Mentored junior developers and implemented best practices for code quality and performance.',
-    achievements: [
-      'Increased application performance by 40%',
-      'Led a team of 5 developers',
-      'Implemented CI/CD pipelines'
-    ]
-  },
+  
   {
     title: 'Full Stack Developer',
-    company: 'StartupXYZ',
-    location: 'San Francisco, CA',
-    period: '2020 - 2022',
-    description: 'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create pixel-perfect user interfaces.',
+    company: 'Client Projects',
+    location: 'Upwork',
+    period: '2024-present',
+    description: 'Developed and maintained multiple client projects  using modern web technologies. Collaborated with design teams to create pixel perfect user interfaces.',
     achievements: [
-      'Built 15+ client projects',
+      'Built 5+ client projects',
       'Reduced load times by 60%',
       'Implemented responsive designs'
     ]
@@ -32,7 +21,7 @@ const workExperience = [
     title: 'Frontend Developer',
     company: 'WebSolutions',
     location: 'Remote',
-    period: '2019 - 2020',
+    period: '2024 - 2025',
     description: 'Specialized in creating responsive, accessible web applications with a focus on user experience and modern JavaScript frameworks.',
     achievements: [
       'Improved accessibility scores by 90%',
@@ -44,36 +33,25 @@ const workExperience = [
 
 const education = [
   {
-    degree: 'Master of Science in Computer Science',
-    school: 'Stanford University',
-    location: 'Stanford, CA',
-    period: '2017 - 2019',
-    description: 'Specialized in Software Engineering and Human-Computer Interaction. Graduated Magna Cum Laude.',
-    achievements: [
-      'GPA: 3.8/4.0',
-      'Research in Machine Learning',
-      'Teaching Assistant for Web Development'
-    ]
-  },
-  {
     degree: 'Bachelor of Science in Computer Science',
-    school: 'UC Berkeley',
-    location: 'Berkeley, CA',
-    period: '2013 - 2017',
+    school: 'Gondar University',
+    location: 'Gondar, Ethiopia',
+    period: '2021 - 2025',
     description: 'Foundation in computer science fundamentals, algorithms, and software development principles.',
     achievements: [
-      'Dean\'s List for 6 semesters',
-      'President of Computer Science Club',
-      'Hackathon Winner (3x)'
+      'Graduated with Honors',
+      
+      
     ]
-  }
+  },
+  
 ];
 
-const certifications = [
+{/*const certifications = [
   { name: 'AWS Certified Solutions Architect', year: '2023' },
   { name: 'Google Cloud Professional Developer', year: '2022' },
   { name: 'MongoDB Certified Developer', year: '2021' },
-];
+];*/}
 
 export default function ResumeSection() {
   return (
@@ -87,7 +65,7 @@ export default function ResumeSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Resume & Experience
+            Education & Experience
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-6" />
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
@@ -227,7 +205,7 @@ export default function ResumeSection() {
             </div>
 
             {/* Certifications */}
-            <div className="flex items-center mb-6">
+            {/*<div className="flex items-center mb-6">
               <div className="p-3 bg-green-100 dark:bg-green-900/30 rounded-lg mr-4">
                 <Award className="text-green-600 dark:text-green-400" size={24} />
               </div>
@@ -255,9 +233,11 @@ export default function ResumeSection() {
                       {cert.year}
                     </span>
                   </div>
+                  
                 </motion.div>
               ))}
             </div>
+            */}
           </motion.div>
         </div>
       </div>

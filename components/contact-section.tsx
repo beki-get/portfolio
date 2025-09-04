@@ -39,27 +39,27 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'john.doe@example.com',
-      href: 'mailto:john.doe@example.com'
+      value: 'bereketgetayea@gmail.com',
+      href: 'mailto:bereketgetayea@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+251-965482363',
+      href: 'tel:+251965482363'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
-      href: 'https://maps.google.com/?q=San+Francisco,CA'
+      value: 'Addis Ababa, Ethiopia',
+      href: 'https://maps.google.com/?q=AddisAbaba,Ethiopia'
     }
   ];
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
+        {/*<motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -76,7 +76,7 @@ export default function ContactSection() {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
+          {/* Contact Form *
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -186,7 +186,7 @@ export default function ContactSection() {
                 )}
               </motion.button>
             </form>
-          </motion.div>
+          </motion.div>*/}
 
           {/* Contact Information */}
           <motion.div
@@ -264,7 +264,7 @@ export default function ContactSection() {
             </motion.div>
           </motion.div>
         </div>
-      </div>
+      
     </section>
   );
 }

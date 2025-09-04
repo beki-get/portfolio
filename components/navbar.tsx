@@ -71,7 +71,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
           >
-            JD
+            BG
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -88,7 +88,7 @@ export default function Navbar() {
               </motion.button>
             ))}
             
-            {/* Resume Download Button */}
+            {/* Resume Download Button 
             <motion.button
               onClick={handleResumeDownload}
               whileHover={{ scale: 1.05 }}
@@ -97,7 +97,7 @@ export default function Navbar() {
             >
               <Download size={16} />
               <span>Resume</span>
-            </motion.button>
+            </motion.button>*/}
 
             {/* Theme Toggle */}
             <motion.button
@@ -151,14 +151,14 @@ export default function Navbar() {
                     {item.name}
                   </motion.button>
                 ))}
-                <motion.button
+                {/*<motion.button
                   onClick={handleResumeDownload}
                   whileHover={{ scale: 1.02 }}
                   className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 w-full justify-center"
                 >
                   <Download size={16} />
                   <span>Download Resume</span>
-                </motion.button>
+                </motion.button>*/}
               </div>
             </motion.div>
           )}

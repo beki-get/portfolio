@@ -70,7 +70,7 @@ export default function HeroSection() {
             className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6"
           >
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
-              John Doe
+              Bereket Getaye
             </span>
           </motion.h1>
 
@@ -89,8 +89,8 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-            Crafting exceptional digital experiences with modern technologies. 
-            Passionate about clean code, innovative solutions, and bringing ideas to life.
+           I create scalable web applications using React, Next.js, Node.js, and PostgreSQL/MongoDB. 
+           I love turning ideas into production ready projects.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -126,10 +126,10 @@ export default function HeroSection() {
             className="flex justify-center space-x-6 mb-12"
           >
             {[
-              { icon: Github, href: 'https://github.com', label: 'GitHub' },
-              { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-              { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-              { icon: Mail, href: 'mailto:john@example.com', label: 'Email' },
+              { icon: Github, href: 'https://github.com/beki-get', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/bereket-getaye/', label: 'LinkedIn' },
+              { icon: Twitter, href: 'https://x.com/bereketget4150', label: 'Twitter' },
+              { icon: Mail, href: 'mailto:bereketgetayea@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

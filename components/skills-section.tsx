@@ -19,10 +19,10 @@ const skillCategories = [
     skills: [
       { name: 'React', level: 95, icon: '⚛️' },
       { name: 'Next.js', level: 90, icon: '▲' },
-      { name: 'TypeScript', level: 88, icon: '📘' },
+      { name: 'TypeScript', level: 70, icon: '📘' },
       { name: 'Tailwind CSS', level: 92, icon: '🎨' },
       { name: 'JavaScript', level: 95, icon: '🟨' },
-      { name: 'HTML/CSS', level: 98, icon: '🌐' },
+      //{ name: 'HTML/CSS',level:95, icon: '🌐' },
     ]
   },
   {
@@ -31,10 +31,10 @@ const skillCategories = [
     skills: [
       { name: 'Node.js', level: 90, icon: '🟢' },
       { name: 'Express.js', level: 85, icon: '🚀' },
-      { name: 'Python', level: 80, icon: '🐍' },
+      //{ name: 'Python', level: 80, icon: '🐍' },
       { name: 'REST APIs', level: 92, icon: '🔗' },
       { name: 'GraphQL', level: 75, icon: '📊' },
-      { name: 'Microservices', level: 78, icon: '🔧' },
+      //{ name: 'Microservices', level: 78, icon: '🔧' },
     ]
   },
   {
@@ -43,9 +43,9 @@ const skillCategories = [
     skills: [
       { name: 'MongoDB', level: 88, icon: '🍃' },
       { name: 'PostgreSQL', level: 85, icon: '🐘' },
-      { name: 'Redis', level: 80, icon: '🔴' },
+     // { name: 'Redis', level: 80, icon: '🔴' },
       { name: 'Supabase', level: 82, icon: '⚡' },
-      { name: 'Prisma', level: 85, icon: '🔷' },
+      //{ name: 'Prisma', level: 85, icon: '🔷' },
       { name: 'MySQL', level: 78, icon: '🐬' },
     ]
   },
@@ -55,10 +55,11 @@ const skillCategories = [
     skills: [
       { name: 'Git', level: 95, icon: '📝' },
       { name: 'Docker', level: 80, icon: '🐳' },
-      { name: 'AWS', level: 75, icon: '☁️' },
+     // { name: 'AWS', level: 75, icon: '☁️' },
       { name: 'Vercel', level: 90, icon: '▲' },
-      { name: 'Jest', level: 85, icon: '🧪' },
+      //{ name: 'Jest', level: 85, icon: '🧪' },
       { name: 'Figma', level: 70, icon: '🎨' },
+    
     ]
   }
 ];

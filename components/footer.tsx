@@ -7,16 +7,16 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:john.doe@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/beki-get', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/bereket-getaye/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/bereketget4150', label: 'Twitter' },
+    { icon: Mail, href: 'mailto:bereketgetayea@gmail.com', label: 'Email' },
   ];
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'john.doe@example.com', href: 'mailto:john.doe@example.com' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: 'https://maps.google.com/?q=San+Francisco,+CA' },
+    { icon: Mail, label: 'Email', value: 'bereketgetayea@gmail.com', href: 'mailto:bereketgetayea@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+251-965482363', href: 'tel:+251965482363' },
+    //{ icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: 'https://maps.google.com/?q=San+Francisco,+CA' },
   ];
 
   const scrollToTop = () => {
@@ -43,7 +43,7 @@ export default function Footer() {
             className="space-y-4"
           >
             <div className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              John Doe
+              Bereket Getaye
             </div>
             <p className="text-gray-400 leading-relaxed">
               Full Stack Developer passionate about creating exceptional digital experiences 
@@ -124,14 +124,14 @@ export default function Footer() {
             viewport={{ once: true }}
             className="flex items-center space-x-2 text-gray-400"
           >
-            <span>© {currentYear} John Doe. Made with</span>
+            <span>© {currentYear} Bereket Getaye</span>
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1.5, repeat: Infinity }}
             >
               <Heart className="text-red-500" size={16} fill="currentColor" />
             </motion.div>
-            <span>and lots of coffee.</span>
+            <span></span>
           </motion.div>
 
           {/* Social Links */}
