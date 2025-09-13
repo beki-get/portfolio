@@ -17,26 +17,27 @@ const projects = [
     githubUrl: 'https://github.com/beki-get/ecommerce-frontend',
     featured: true,
   },
-  {
+{
     id: 2,
-    title: 'Task Management App',
-    description: 'A collaborative project management tool with real-time updates, team collaboration, and advanced filtering.',
-    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tech: ['React', 'Node.js', 'Socket.io', 'PostgreSQL', 'Material-UI'],
+    title: 'AI Chat Application',
+    description: 'An intelligent chat application powered by AI with real-time messaging and smart responses.',
+    image: 'https://res.cloudinary.com/do2hzkidl/image/upload/v1757774509/smart_uif4ve.png',
+    tech: ['React', 'GeminiAI API', 'WebSocket', 'Firebase', 'Tailwind CSS'],
     category: 'Full Stack',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/taskmanager',
+    demoUrl: 'https://ai-assistant-bice-pi.vercel.app/',
+    githubUrl: 'https://github.com/beki-get/Ai-assistant',
     featured: true,
   },
+
   {
     id: 3,
-    title: 'Weather Dashboard',
-    description: 'A beautiful weather application with location-based forecasts, interactive maps, and detailed analytics.',
-    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tech: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
+    title: 'Portfolio Website',
+    description: 'A responsive portfolio website with modern animations, dark mode, and optimized performance.',
+    image: 'https://res.cloudinary.com/do2hzkidl/image/upload/v1757774175/Screenshot_2025-09-13_at_07-31-59_Bereket_Getaye_-_Full_Stack_Developer_kqlgq6.png',
+    tech: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'TypeScript'],
     category: 'Frontend',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/weather',
+    demoUrl: 'https://portfolio-ashy-kappa-nls7dvyson.vercel.app/',
+    githubUrl: 'https://github.com/beki-get/portfolio',
     featured: false,
   },
   {
@@ -50,28 +51,35 @@ const projects = [
     githubUrl: 'https://github.com/johndoe/social-api',
     featured: false,
   },
-  {
+
+    {
     id: 5,
-    title: 'Portfolio Website',
-    description: 'A responsive portfolio website with modern animations, dark mode, and optimized performance.',
-    image: 'https://res.cloudinary.com/do2hzkidl/image/upload/v1757774175/Screenshot_2025-09-13_at_07-31-59_Bereket_Getaye_-_Full_Stack_Developer_kqlgq6.png',
-    tech: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'TypeScript'],
-    category: 'Frontend',
-    demoUrl: 'https://portfolio-ashy-kappa-nls7dvyson.vercel.app/',
-    githubUrl: 'https://github.com/beki-get/portfolio',
-    featured: false,
-  },
-  {
-    id: 6,
-    title: 'AI Chat Application',
-    description: 'An intelligent chat application powered by AI with real-time messaging and smart responses.',
-    image: 'https://res.cloudinary.com/do2hzkidl/image/upload/v1757774509/smart_uif4ve.png',
-    tech: ['React', 'GeminiAI API', 'WebSocket', 'Firebase', 'Tailwind CSS'],
+    title: 'Task Management App',
+    description: 'A collaborative project management tool with real-time updates, team collaboration, and advanced filtering.',
+    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tech: ['React', 'Node.js', 'Socket.io', 'PostgreSQL', 'Material-UI'],
     category: 'Full Stack',
-    demoUrl: 'https://ai-assistant-bice-pi.vercel.app/',
-    githubUrl: 'https://github.com/beki-get/Ai-assistant',
+    demoUrl: 'https://demo.example.com',
+    githubUrl: 'https://github.com/johndoe/taskmanager',
     featured: true,
   },
+ {
+    id: 6,
+    title: 'Weather Dashboard',
+    description: 'A beautiful weather application with location-based forecasts, interactive maps, and detailed analytics.',
+    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tech: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
+    category: 'Frontend',
+    demoUrl: 'https://demo.example.com',
+    githubUrl: 'https://github.com/johndoe/weather',
+    featured: false,
+  },
+
+
+
+
+  
+  
 ];
 
 const categories = ['All', 'Full Stack', 'Frontend', 'Backend'];
