@@ -8,7 +8,7 @@ const workExperience = [
   {
     title: 'Full Stack Developer',
     company: 'Client Projects',
-    location: 'Upwork',
+    location: 'Remote',
     period: '2024-present',
     description: 'Developed and maintained multiple client projects  using modern web technologies. Collaborated with design teams to create pixel perfect user interfaces.',
     achievements: [
