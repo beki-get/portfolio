@@ -13,8 +13,8 @@ const projects = [
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
     tech: ['Next.js', 'JavaScript', 'Stripe', 'MongoDB', 'Tailwind CSS'],
     category: 'Full Stack',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/ecommerce',
+    demoUrl: 'https://ecommerce-frontend-9kyz.onrender.com/',
+    githubUrl: 'https://github.com/beki-get/ecommerce',
     featured: true,
   },
   {
@@ -68,8 +68,8 @@ const projects = [
     image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
     tech: ['Next.js', 'OpenAI API', 'WebSocket', 'Redis', 'Tailwind CSS'],
     category: 'Full Stack',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/ai-chat',
+    demoUrl: 'https://ai-assistant-l9lxnnj9k-berekets-projects-3abd8483.vercel.app/',
+    githubUrl: 'https://github.com/beki-get/Ai-assistant',
     featured: true,
   },
 ];
