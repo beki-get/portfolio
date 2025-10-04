@@ -79,7 +79,7 @@ export default function AboutSection() {
           >
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Passionate Developer & Problem Solver
+                Full Stack Developer & Problem Solver
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 I'm a dedicated Full Stack Developer  creating 
