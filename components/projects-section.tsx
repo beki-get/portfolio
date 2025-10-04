@@ -17,17 +17,21 @@ const projects = [
     githubUrl: 'https://github.com/beki-get/ecommerce',
     featured: true,
   },
-  {
+
+{
     id: 2,
-    title: 'Task Management App',
-    description: 'A collaborative project management tool with real-time updates, team collaboration, and advanced filtering.',
-    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tech: ['React', 'Node.js', 'Socket.io', 'PostgreSQL', 'Material-UI'],
+    title: 'AI Chat Application',
+    description: 'An intelligent chat application powered by AI with real-time messaging and smart responses.',
+    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tech: ['Next.js', 'OpenAI API', 'WebSocket', 'Redis', 'Tailwind CSS'],
     category: 'Full Stack',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/taskmanager',
+    demoUrl: 'https://ai-assistant-l9lxnnj9k-berekets-projects-3abd8483.vercel.app/',
+    githubUrl: 'https://github.com/beki-get/Ai-assistant',
     featured: true,
   },
+
+
+  
   {
     id: 3,
     title: 'Weather Dashboard',
@@ -35,8 +39,8 @@ const projects = [
     image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
     tech: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
     category: 'Frontend',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/weather',
+    //demoUrl: 'https://demo.example.com',
+    //githubUrl: 'https://github.com/johndoe/weather',
     featured: false,
   },
   {
@@ -63,15 +67,16 @@ const projects = [
   },
   {
     id: 6,
-    title: 'AI Chat Application',
-    description: 'An intelligent chat application powered by AI with real-time messaging and smart responses.',
-    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tech: ['Next.js', 'OpenAI API', 'WebSocket', 'Redis', 'Tailwind CSS'],
+    title: 'Minimalist E-learning Platform',
+    description: 'A minimalist e-learning platform with a focus on user experience and accessibility.',
+    image: 'https://res.cloudinary.com/do2hzkidl/image/upload/v1759435583/udemmy_rsdlfq.png',
+    tech: ['TypeScript', 'Next.js', 'Node.js',  'PostgreSQL', 'Tailwind CSS'],
     category: 'Full Stack',
-    demoUrl: 'https://ai-assistant-l9lxnnj9k-berekets-projects-3abd8483.vercel.app/',
-    githubUrl: 'https://github.com/beki-get/Ai-assistant',
+    demoUrl: 'https://demo.example.com',
+    githubUrl: 'https://github.com/johndoe/taskmanager',
     featured: true,
   },
+  
 ];
 
 const categories = ['All', 'Full Stack', 'Frontend', 'Backend'];

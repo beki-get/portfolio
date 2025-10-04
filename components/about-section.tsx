@@ -8,8 +8,8 @@ export default function AboutSection() {
   const handleDownloadCV = () => {
     // Mock download functionality
     const link = document.createElement('a');
-    link.href = '/cv.pdf';
-    link.download = 'John_Doe_CV.pdf';
+    link.href = '/afriwork.docx';
+    link.download = 'afriwork.docx';
     link.click();
   };
 
@@ -115,7 +115,7 @@ export default function AboutSection() {
               className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <Download size={20} />
-              <span>Download CV</span>
+              <span>Download Resume</span>
             </motion.button>
           </motion.div>
         </div>
