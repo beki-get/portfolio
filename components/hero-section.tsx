@@ -153,7 +153,7 @@ export default function HeroSection() {
             transition={{ duration: 1, delay: 1.2 }}
             className="flex flex-col items-center"
           >
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Scroll to explore</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Discover My Work</p>
             <motion.div
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 2, repeat: Infinity }}

@@ -122,7 +122,7 @@ export default function SkillsSection() {
                         </span>
                       </div>
                       <span className="text-sm text-gray-500 dark:text-gray-400">
-                        {skill.level}%
+                        {/*{skill.level}%*/}
                       </span>
                     </div>
                     <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
