@@ -157,7 +157,7 @@ export default function Navbar() {
                   className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 w-full justify-center"
                 >
                   <Download size={16} />
-                  <span>Download Resume</span>
+                  <span> Resume</span>
                 </motion.button>*/}
               </div>
             </motion.div>
