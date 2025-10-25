@@ -117,15 +117,11 @@ export default function HeroSection() {
               Contact Me
             </motion.button>
           </motion.div>
-
-          <iframe
-            src="https://lead-capture-two.vercel.app/embed-form?userEmail=bole@gmail.com"
-            width="100%"
-            height="600"
-            className="border-0"
-            title="Embedded Form"
-          ></iframe>
-
+          <script 
+            src="https://lead-capture-two.vercel.app/embed.js" 
+            data-user-email="bole@gmail.com">
+           </script>
+          
           {/* Social Icons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
