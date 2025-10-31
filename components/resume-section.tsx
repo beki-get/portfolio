@@ -39,7 +39,7 @@ const education = [
     period: '2021 - 2025',
     description: 'Foundation in computer science fundamentals, algorithms, and software development principles.',
     achievements: [
-      'Graduated with Honors',
+      //'Graduated with Honors',
       
       
     ]

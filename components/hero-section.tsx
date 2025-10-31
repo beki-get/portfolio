@@ -80,7 +80,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-4"
           >
-            Full Stack Developer
+           Backend MERN Developer
           </motion.h2>
 
           <motion.p
@@ -89,7 +89,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-           I create scalable web applications using React, Next.js, Node.js, and PostgreSQL/MongoDB. 
+           I create scalable  Business Automation & Workflow Tools<br/>
            I love turning ideas into production ready projects.
           </motion.p>
 

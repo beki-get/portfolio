@@ -79,12 +79,11 @@ export default function AboutSection() {
           >
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Full Stack Developer & Problem Solver
+                Backend MERN Developer
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm a dedicated Full Stack Developer  creating 
-                innovative web applications. I specialize in React, Next.js, and Node.js, 
-                with a passion for writing clean, efficient code and delivering exceptional user experiences.
+                
+                Design automation dashboards for business processes, automate workflows, sync APIs, generate reports. 
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 I enjoy building apps that solve real problems and help businesses grow. I believe 
