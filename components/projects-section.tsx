@@ -29,11 +29,32 @@ const projects = [
     githubUrl: 'https://github.com/beki-get/Ai-assistant',
     featured: true,
   },
-
-
-  
-  {
+    {
     id: 3,
+    title: 'Lead Tracking Dashboard',
+    description: 'A lead tracking dashboard that visualizes sales data, tracks lead sources, and provides actionable insights for marketing teams.',
+    image: 'dashboRD.png',
+    tech: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'TypeScript'],
+    category: 'Full Stack',
+    demoUrl: 'https://lead-capture-two.vercel.app/',
+    githubUrl: 'https://github.com/beki-get/lead-capture',
+    featured: false,
+  },
+
+  {
+    id: 4,
+    title: 'Invoice Management API',
+    description: 'RESTful API for invoice management with authentication, invoice creation, payment tracking, and reporting.',
+    image: 'sub.png',
+    tech: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Socket.io'],
+    category: 'Backend',
+    //demoUrl: 'https://demo.example.com',
+    githubUrl: 'https://github.com/beki-get/billing-manager-backend',
+    featured: false,
+  },
+
+  {
+    id: 5,
     title: 'Weather Dashboard',
     description: 'A beautiful weather application with location-based forecasts, interactive maps, and detailed analytics.',
     image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -43,28 +64,7 @@ const projects = [
     //githubUrl: 'https://github.com/johndoe/weather',
     featured: false,
   },
-  {
-    id: 4,
-    title: 'Invoice Management API',
-    description: 'RESTful API for invoice management with authentication, invoice creation, payment tracking, and reporting.',
-    image: 'sub.png',
-    tech: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Socket.io'],
-    category: 'Backend',
-    //demoUrl: 'https://demo.example.com',
-    //githubUrl: '',
-    featured: false,
-  },
-  {
-    id: 5,
-    title: 'Lead Tracking Dashboard',
-    description: 'A lead tracking dashboard that visualizes sales data, tracks lead sources, and provides actionable insights for marketing teams.',
-    image: 'dashboRD.png',
-    tech: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'TypeScript'],
-    category: 'Full Stack',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/portfolio',
-    featured: false,
-  },
+  
   {
     id: 6,
     title: 'Minimalist E-learning Platform',
@@ -72,8 +72,8 @@ const projects = [
     image: 'https://res.cloudinary.com/do2hzkidl/image/upload/v1759435583/udemmy_rsdlfq.png',
     tech: ['TypeScript', 'Next.js', 'Node.js',  'PostgreSQL', 'Tailwind CSS'],
     category: 'Full Stack',
-    demoUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com/johndoe/taskmanager',
+    //demoUrl: 'https://demo.example.com',
+    githubUrl: 'https://github.com/beki-get/elearningbackend',
     featured: true,
   },
   
